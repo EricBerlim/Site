@@ -114,8 +114,19 @@ html{
 }
 
 /*SOBRE*/
+section{
+    padding: 100px 0;
+}
 .about{
-    
+    font-family: 'Roboto' sans-serif;
+}
+.about .title{
+    font-family: 'Ubuntu' sans-serif;
+}
+.about .about-content .left img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
 }
 
 /*RESPONSIVIDADE*/
