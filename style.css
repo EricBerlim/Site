@@ -184,7 +184,7 @@ section .title::after{
 
 /*SOBRE*/
 .about .title::after{
-    content: "Quem sou eu";
+    content: "";
 }
 .about .about-content .left{
     width: 45%;
@@ -226,7 +226,7 @@ section .title::after{
     border-radius: 6px;
 }
 
-/*SERVIÇOS*/
+/*HABILIDADES*/
 .services{
     background: black;
     color: white;
@@ -236,7 +236,7 @@ section .title::after{
 }
 .services .title::after, .title::after{
     background: black;
-    content: "Oferecidos";
+    content: "";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -269,9 +269,9 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/*ESPECIALIDADES*/
+/*CONHECIMENTOS*/
 .skills .title::after{
-    content: "Que faço";
+    content: "";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -327,24 +327,24 @@ section .title::after{
     background: lightseagreen;
 }
 .skills .skills-content .right .html::before{
-    width: 81%;
+    width: 100%;
 }
 .skills .skills-content .right .css::before{
-    width: 72%;
+    width: 100%;
 }
 .skills .skills-content .right .js::before{
-    width: 39%;
+    width: 100%;
 }
 .skills .skills-content .right .office::before{
-    width: 20%;
+    width: 100%;
 }
 .skills .skills-content .right .mysql::before{
-    width: 44%;
+    width: 100%;
 }
 
 /*CONTATO*/
 .contact .title::after{
-    content: "Fale conosco";
+    content: "";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
